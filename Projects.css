@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0d0d0d;
+    min-height: 90vh;
+}
+
+header{
+    width: 100%;
+    height: 7.5vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul{
+    width: 90%;
+    display: flex;
+    background-color: rgb(51, 50, 50);
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+
+
+nav ul li{
+    list-style: none;
+}
+
+.logo a{
+    color: #960612;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #31ffe4;
+    transition: 1s linear;
+}
+
+nav ul li a:hover{
+    color: #03df3a;
+}
+
+.project-hero{
+    width: 100%;
+    min-height: 50vh;
+    color: #31ffe4;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-display{
+    width: 80%;
+    border-style: solid;
+    border-color: #31ffe4;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projects{
+    width: 100%;
+    min-height: 50vh;
+    color: #31ffe4;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-display{
+    width: 80%;
+    border-style: solid;
+    border-color: #31ffe4;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 40vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.projects h2{
+
+    text-align: center;
+}
+
+.project-1{
+    width: 20%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-1 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.projects button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #31ffe4;
+    font-weight: 700;
+    border-style: hidden;
+}
+
+.project-2{
+    width: 20%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-2 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.girly-theme body{
+    background: linear-gradient(#e612e6,#9118d6, #e612e6);
+    background-attachment: fixed;
+}
+
+.girly-theme nav ul{
+    background-color: #fca5e9;
+    box-shadow: 4ppx 4px 0px rgba(139, 92, 246, 0.3), 8px 8px 20px rgba(232, 215, 255, 0.7);
+}
+
+.girly-theme nav ul li a{
+    color: rgb(104, 4, 79);
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.girly-theme nav ul li a:hover{
+    color: #f216fa;
+}
+
+.girly-theme .Hero{
+    box-shadow: 4px 4px 0px rgba(48, 13, 131, 0.3), 8px 8px 20px rgba(51, 12, 102, 0.7);
+    background-color: #ee52e1;
+    border-radius: 10px;
+}
+
+
+.girly-theme button{
+    background: linear-gradient(#9118d6, #e612e6);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px 4px #370142, 0px 8px 15px rgba(124, 58, 237, 0.2);
+    transition: 1s;
+    padding: 0.2rem;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.girly-theme button:hover{
+    background-color: #e39cec;
+    box-shadow: 3px 5px 4px #bb2ebb, 0px 8px 15px rgba(124, 58, 237, 0.3);
+}
+
+.girly-theme .hero-display{
+    border-style: hidden;
+    color: #3f035e;
+   box-shadow: 4px 4px 0px rgba(48, 13, 131, 0.3), 8px 8px 20px rgba(51, 12, 102, 0.7);
+    background-color: #ee52e1;
+    border-radius: 10px;
+}
+
+.girly-theme .hero-display .hero-text{
+    margin-top: 40px;
+}
+
+.girly-theme .project-display{
+    box-shadow: 4px 4px 0px rgba(48, 13, 131, 0.3), 8px 8px 20px rgba(51, 12, 102, 0.7);
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.girly-theme .projects h2{
+    color: #e6dae4;
+}
+
+.girly-theme .projects h3{
+    color: #e6dae4;
+}
