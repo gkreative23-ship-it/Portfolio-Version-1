@@ -82,10 +82,9 @@ nav ul li a:hover{
 }
 
 .hero-text{
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -221,4 +220,138 @@ nav ul li a:hover{
 
 .girly-theme .projects h3{
     color: #e6dae4;
+}
+
+@media(max-width:640px){
+    header nav{
+        height: 6vh;
+    }
+
+    .hero-text{
+        margin-top: -10px;
+    }
+    
+    .project-display{
+        flex-direction: column;
+    }
+
+    .project-1{
+    width: 50%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-1 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.projects button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #31ffe4;
+    font-weight: 700;
+    border-style: hidden;
+}
+
+.project-2{
+    width: 50%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.project-2 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tools{
+    width: 100%;
+    max-height: 2rem;
+}
+
+.skills{
+    background-color: #e39cec;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+}
+
+@media(max-width: 896px){
+    .project-hero{
+        min-height: 40vh;
+    }
+
+    .hero-display{
+        min-height: 20vh;
+    }
+
+    .hero-text{
+        min-height: 30vh;
+    }
+
+    .hero-text h2{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 1024px){
+
+    header nav{
+        height: 7vh;
+    }
+    .project-1{
+    width: 50%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-1 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.projects button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #31ffe4;
+    font-weight: 700;
+    border-style: hidden;
+}
+
+.project-2{
+    width: 50%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.project-2 img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tools{
+    width: 100%;
+    max-height: 2rem;
+}
+
+.skills{
+    background-color: #e39cec;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
 }
