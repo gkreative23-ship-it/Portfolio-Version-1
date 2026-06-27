@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-height: 90vh;
+    background-color: #0a0a0f;
+    color: #f0eef6;
+}
+
+header{
+    width: 100%;
+    height: 7.5vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(80, 77, 77);
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: aqua;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    transition: 0.7s ease;
+}
+
+nav ul li a:hover{
+    color: #bd93fd;
+}
+
+
+.contact-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0076ff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: aqua;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-radius: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+button{
+    padding: 9px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #661fcf;
+    color: #f0eef6;
+    font-family: 'Helvetica';
+    font-weight: bolder;
+    transition: 1s ease;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7b5ea7;
+    
+}
+
+@media(max-width:480px){
+    nav{
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul{
+        width: 100%;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .logo{
+        width: 20%;
+    }
+  }

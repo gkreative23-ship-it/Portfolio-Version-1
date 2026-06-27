@@ -18,3 +18,10 @@ function changeTheme(){
      }
 }
 
+function contactPage(){
+    window.location.href="contact-form.html"
+}
+
+function movetoBook(){
+    window.Location.href="bookpage.html"
+}

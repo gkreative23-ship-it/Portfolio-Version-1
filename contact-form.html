@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web developer contact</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-form.css">
 </head>
 <body>
-    <form action=""></form>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="Projects.html">Projects</a></li>
+                
+                
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="contact-container">
+  <h2>Get in Touch</h2>
+  <form data-netlify="true" method="POST" class="contact-form" name="Contact" action="/">
+    <input type="hidden" name="form-name" value="Contact" />
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name">
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn" onclick="movetoBook()">Send Message</button>
+  </form>
+</div>
+<script src="home.js"></script>
 </body>
 </html>
