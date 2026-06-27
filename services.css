@@ -212,7 +212,13 @@ footer nav .socials{
     font-weight: 600;
 }
 
+.contact-button{
+    width: 85px;
+}
 
+.contact-button2{
+    width: 100px;
+}
 
 
 @media(max-width: 660px){
@@ -285,6 +291,10 @@ footer nav .socials{
     .process-display{
         flex-wrap: wrap;
         padding: 1rem;
+    }
+
+    .contact-button2{
+        width: 160px;
     }
 
     footer{

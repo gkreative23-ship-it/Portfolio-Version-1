@@ -61,7 +61,7 @@ nav ul li a:hover{
 
 .project-hero{
     width: 100%;
-    min-height: 50vh;
+    min-height: 60vh;
     color: #31ffe4;
     box-sizing: border-box;
     margin-left: auto;
@@ -71,11 +71,13 @@ nav ul li a:hover{
 .hero-display{
     width: 80%;
     border-style: solid;
-    border-color: #31ffe4;
+    border-color: #0d0e0d;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-height: 40vh;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px 4px rgba(0,0,0,0.5);
+    min-height: 50vh;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -100,8 +102,10 @@ nav ul li a:hover{
 .project-display{
     width: 80%;
     border-style: solid;
-    border-color: #31ffe4;
+    border-color: #030303;
     box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 4px rgba(0,0,0,0.5);
     display: flex;
     min-height: 40vh;
     margin-top: 50px;
@@ -110,6 +114,7 @@ nav ul li a:hover{
     justify-content: center;
     gap: 20px;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .projects h2{
@@ -137,6 +142,15 @@ nav ul li a:hover{
     border-style: hidden;
 }
 
+.switch-Button{
+    margin-top: 20px;
+    padding: 0.3rem;
+    background-color: #31ffe4;
+    border-style: hidden;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
 .project-2{
     width: 20%;
     min-height: 30vh;
@@ -149,7 +163,20 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 
+.tools{
+    width: 100%;
+    max-height: 2rem;
+}
 
+.skills{
+    background-color: #e39cec;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
 
 .girly-theme body{
     background: linear-gradient(#e612e6,#9118d6, #e612e6);
@@ -354,4 +381,23 @@ nav ul li a:hover{
     margin-top: 1rem;
     padding: 0.5rem;
 }
+}
+
+@media(min-width:1024px){
+    .project-hero{
+        min-height: 40vh;
+    }
+
+    .hero-display{
+        min-height: 30vh;
+    }
+
+    .hero-text{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .hero-text button{
+        margin-bottom: 10px;
+    }
 }
