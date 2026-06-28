@@ -126,16 +126,19 @@ button:hover{
     
 }
 
-@media(max-width:768px){
+@media(max-width:640px){
     nav{
         flex-direction: column;
         height: auto;
+        width: 100%;
     }
 
     nav ul{
-        width: 100%;
+        width: 80%;
         font-size: 14px;
         margin-left: 25px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .logo{
