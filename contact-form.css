@@ -26,7 +26,8 @@ nav{
 nav ul{
     width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    padding: 1rem;
+    justify-content: center;
     background: rgb(80, 77, 77);
     align-items: center;
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
@@ -42,7 +43,6 @@ nav ul li a {
     color: aqua;
     margin-right: 15px;
     text-decoration: none;
-    font-family: 'Helvetica';
     transition: 0.7s ease;
 }
 
@@ -140,3 +140,31 @@ button:hover{
         width: 20%;
     }
   }
+
+  .girly-theme body{
+    background: linear-gradient(#e612e6,#9118d6, #e612e6);
+    background-attachment: fixed;
+}
+
+.girly-theme nav ul{
+    background-color: #f775e1;
+    padding: 1rem;
+}
+
+.girly-theme nav ul li a{
+    color: rgb(63, 2, 58);
+    transition: 0.5s linear;
+}
+
+.girly-theme nav ul li a:hover{
+    color: #e612e6;
+}
+
+.girly-theme .submit-btn{
+    background-color: #9118d6;
+    color: #f0eef6;
+}
+
+.girly-theme .submit-btn:hover{
+    background-color: #b95dee;
+}
